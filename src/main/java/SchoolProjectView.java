@@ -1,8 +1,10 @@
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.sql.ResultSet;
 @SuppressWarnings("serial")
 
-public class SchoolProjectView extends Frame{
+public class SchoolProjectView extends Frame implements ActionListener{
 	
 	TextField RegNo, Name, Marks;
 	Label L1, L2, L3;
@@ -10,6 +12,10 @@ public class SchoolProjectView extends Frame{
 	ResultSet Records;
 	
 	public SchoolProjectView() {
+		
+	}
+		
+		public void actionPerformed(ActionEvent e) {
 		
 		RegNo = new TextField();
 		Name = new TextField();

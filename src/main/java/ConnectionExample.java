@@ -19,6 +19,7 @@ public class ConnectionExample {
 				System.out.println("RegNo: " + RS.getInt(1));
 				System.out.println("Name: " + RS.getString(2));
 				System.out.println("Mark: " + RS.getInt(3));
+				System.out.println("mm");
 			}
 		}
 		
